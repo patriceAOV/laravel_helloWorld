@@ -1,5 +1,5 @@
 # laravel_helloWorld
-### setup laravel CRUD
+### setup API
 1. Create a new MYSQL database 
 2. In env file add the newly create database to the DB_DATABASE
 3. Run in your terminal: php artisan migrate:refresh
@@ -32,3 +32,7 @@ http://127.0.0.1:8000/api/students/{id}/edit
 
 DELETE - DELETE
 http://127.0.0.1:8000/api/students/{id}/delete
+
+### setup Client
+1. Run in your terminal: npm install
+1. Run in your terminal: npm run dev
